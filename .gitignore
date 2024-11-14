@@ -1,0 +1,12 @@
+db/*
+node_modules
+package-lock.json
+.DS_Store
+dist
+tsconfig.tsbuildinfo
+.vscode
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.env

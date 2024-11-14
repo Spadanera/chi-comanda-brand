@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": false, 
+    "target": "es2016", 
+    "module": "commonjs",
+    "rootDir": "./src",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@models": ["../models/src/index"],
+    },
+    "outDir": "./dist", 
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, 
+    "skipLibCheck": true
+  }
+}
