@@ -1,5 +1,5 @@
 {
-  "name": "chi-comanda",
+  "name": "chi-comanda-brand",
   "version": "1.1.14",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,6 @@
     "recreate": "docker-compose up -d --force-recreate",
     "stop": "docker-compose stop",
     "docker-build": "docker-compose build",
-    "build-model": "cd models && npm install && npm run build",
     "build-server": "cd server && npm install && npm run build",
     "build-client": "cd client && npm install && npm run build",
     "build": "npm run build-model && npm run build-server && npm run build-client",
@@ -28,8 +27,5 @@
   "bugs": {
     "url": "https://github.com/Spadanera/gig-addicted/issues"
   },
-  "homepage": "https://github.com/Spadanera/gig-addicted#readme",
-  "devDependencies": {
-    "typescript": "^5.6.2"
-  }
+  "homepage": "https://github.com/Spadanera/gig-addicted#readme"
 }
